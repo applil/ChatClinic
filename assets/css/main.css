@@ -151,6 +151,11 @@ a:after {
 	font-size: 18px;
 }
 
+#footerwrap h1 {
+	color: white;
+	font-size: 70px;
+}
+
 /* Copyright Wrap */
 
 #c {
