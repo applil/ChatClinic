@@ -136,6 +136,10 @@ a:after {
 	text-align: left;
 }
 
+#footerwrap h1 {
+	color: white;
+}
+
 #footerwrap h3 {
 	font-size: 28px;
 	color: white;
@@ -151,10 +155,7 @@ a:after {
 	font-size: 18px;
 }
 
-#footerwrap h1 {
-	color: white;
-	font-size: 70px;
-}
+
 
 /* Copyright Wrap */
 
@@ -179,6 +180,12 @@ a:after {
     display: block;
     height: auto;
     max-width: 80%;
+  }
+
+.img-responsive3 {
+    display: block;
+    height: auto;
+    max-width: 50%;
   }
 
 .white  {
