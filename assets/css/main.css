@@ -200,6 +200,11 @@ a:after {
     padding-bottom: 30px;
   }
 
+  .img-responsive5 {
+    max-width: 80%;
+    padding-bottom: 30px;
+  }
+
 .white  {
     font-weight: 300;
       font-size: 16px;
