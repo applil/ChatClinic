@@ -143,7 +143,7 @@ a:after {
   background-color: #0D2140;
   color: white;
 }
-#topPage a {
+#topPage #try a {
   color: white;
   font-weight: bold;
   opacity: 0.8;
