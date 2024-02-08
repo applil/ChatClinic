@@ -326,17 +326,20 @@ a:after {
   }
 
   .img-responsive5 {
-    max-width: 70%;
+    max-width: clamp(60px, 35vw, 260px);
   }
 
   .img-responsive6 {
     max-width: 100%;
-    padding-top: 5px;
   }
 
   .img-responsive7{
     max-width: clamp(40px, 20vw, 260px);
     padding-bottom: 30px;
+  }
+
+  .img-responsive8 {
+    max-width: 100%;
   }
 
   #button-size {
@@ -540,14 +543,12 @@ a.btn--tel:hover {
 
 #break-keep {
     word-break: keep-all;
-    padding-top: 50px;
-    padding-bottom: 50px;
     }
     
 
 
 #mannaka{
-	height: 100px;
+	height: 200px;
 	display: flex;
 	align-items: center;
 }
@@ -561,4 +562,9 @@ a.btn--tel:hover {
 .table3{
   height:260px;
 	align-items: center;
+}
+
+.yohaku{
+margin-top: 30px;
+margin-bottom: 30px;
 }
