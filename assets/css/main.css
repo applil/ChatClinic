@@ -303,7 +303,6 @@ a:after {
 
 #orange h3 {
 	color: #ff5c00;
-	font-size: 30px;
     font-weight: bold;
 }
 
@@ -326,7 +325,7 @@ a:after {
   }
 
   .img-responsive5 {
-    max-width: clamp(60px, 35vw, 260px);
+    max-width: clamp(100px, 35vw, 260px);
   }
 
   .img-responsive6 {
@@ -530,8 +529,17 @@ a.btn--tel:hover {
 
 
 #features h3 {
-    font-size: clamp(18px, 3vw, 30px);
+    font-size: clamp(18px, 2.5vw, 30px);
 }
+
+#features p {
+  font-size: clamp(10px, 2vw, 16px);
+}
+
+#intro p {
+  font-size: clamp(10px, 2vw, 16px);
+}
+
 
 #showcase h3 {
 	color: white;
@@ -541,7 +549,7 @@ a.btn--tel:hover {
 
 
 
-#break-keep {
+.break-keep {
     word-break: keep-all;
     }
     
