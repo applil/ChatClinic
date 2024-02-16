@@ -329,7 +329,7 @@ a:after {
   }
 
   .img-responsive6 {
-    max-width: 100%;
+    max-width: clamp(40px, 20vw, 260px);
   }
 
   .img-responsive7{
@@ -575,4 +575,9 @@ a.btn--tel:hover {
 .yohaku{
 margin-top: 30px;
 margin-bottom: 30px;
+}
+
+.oya_centered{
+  display:flex;/*flexを指定*/
+  align-items: center;/*垂直方向（y軸）に中央寄せ*/
 }
