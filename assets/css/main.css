@@ -329,7 +329,7 @@ a:after {
   }
 
   .img-responsive6 {
-    max-width: clamp(40px, 20vw, 260px);
+    max-width: clamp(20px, 10vw, 260px);
   }
 
   .img-responsive7{
@@ -339,6 +339,10 @@ a:after {
 
   .img-responsive8 {
     max-width: 100%;
+  }
+
+  .img-responsive9 {
+    max-width: 80%;
   }
 
   #button-size {
